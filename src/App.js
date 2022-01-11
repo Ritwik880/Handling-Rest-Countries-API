@@ -67,7 +67,7 @@ const App = () => {
                       <br />
                       <h6 className="card-title text-left">Population:{item.population} </h6>
                       <br />
-                      <h6 className="card-title text-left">Language:{item.lang} </h6>
+                      <h6 className="card-title text-left">Language:{item.languages.map(language => language.name).join(', ')} </h6>
                       <br />
                       <h6 className="card-title text-left">Area:{item.area} </h6>
                       <br />
@@ -101,7 +101,7 @@ const App = () => {
                       <br />
                       <h6 className="card-title text-left">Population:{item.population} </h6>
                       <br />
-                      <h6 className="card-title text-left">Language:{item.lang} </h6>
+                      <h6 className="card-title text-left">Language:{item.languages.map(language => language.name).join(', ')} </h6>
                       <br />
                       <h6 className="card-title text-left">Area:{item.area} </h6>
                       <br />
